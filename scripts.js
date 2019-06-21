@@ -7,7 +7,7 @@ const container = document.createElement('div');
 container.setAttribute('class', 'container');
 
 app.appendChild(logo);
-logo.setAttribute('width','350px');
+logo.setAttribute('width','50px');
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
