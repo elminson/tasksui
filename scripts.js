@@ -11,7 +11,7 @@ logo.setAttribute('width','50px');
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'http://130.211.234.175/todo/public/api/tasks', true);
+request.open('GET', '/todo/public/api/tasks', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
